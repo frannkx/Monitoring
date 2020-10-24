@@ -1,0 +1,4 @@
+#SHELL=/bin/sh
+#PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+*/1 *   * * *   monitor    /var/www/html/DevEyeInInfra/shells/eyes

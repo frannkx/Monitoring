@@ -1,0 +1,108 @@
+
+*{
+  padding:0px;
+  margin:0px;
+}
+
+#menu{
+  vertical-align: center;
+  margin:auto;
+  width:90%;
+  background-color: white;
+  
+}
+
+ul, ol, li{
+  list-style:none;
+}
+
+.nav{
+  display: inline-block;
+}
+
+.nav li a{
+    background-color: white;
+    text-decoration: none;
+    padding:10px 15px;
+    display: block;
+}
+
+.nav > li {
+  float: left;
+}
+
+.nav li a:hover {
+  background-color: #434343;
+}
+
+.nav li ul {
+  display:none;
+  position:absolute;
+  min-width:140px;  
+}
+
+.nav li:hover > ul{
+  display:block;
+}
+body {
+  background-color:#ff8000 ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 15px
+
+}
+
+
+
+.login {
+  max-width: 340px;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+  -moz-box-shadow:    0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+  box-shadow:         0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+  border-radius: 2em;
+  text-align: center;
+
+
+}
+
+#sha{
+  max-width: 340px;
+    -webkit-box-shadow: 0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+    -moz-box-shadow:    0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+    box-shadow:         0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+    border-radius: 6%;
+  }
+
+ #avatar{
+    width: 96px;
+    height: 96px;
+    margin: 0px 5px;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: 0 auto;
+
+ }
+
+.container {
+    background-color: white;
+    border-radius: 2em;
+    margin: 20px;
+    padding: 25px;
+}
+
+/*.container table{
+    vertical-align:center;
+}*/
+
+table{
+  margin:10px;
+  padding:10px;
+  border:1px;
+}
+
+table, td{
+  padding:10px;
+}

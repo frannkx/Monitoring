@@ -1,0 +1,2 @@
+echo `ping -c1 172.16.65.3|grep '64 bytes'` `date`| `awk '{print $7 '' $12}'` > G1D1
+echo `ping -c1 172.16.65.175|grep '64 bytes'` `date`| `awk '{print $7 '' $12}'` > G1D4
